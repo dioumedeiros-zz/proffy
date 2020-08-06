@@ -7,7 +7,7 @@
 }
 
 .teacher-item header {
-  padding-bottom: 3.2rem 2rem;
+  padding: 3.2rem 2rem;
   display: flex;
   align-items: center;
 }
@@ -89,6 +89,9 @@
   .teacher-item footer button {
     width: 24.5rem;
     font-size: 1.6rem;
-    justify-content: center;
+  }
+
+  .teacher-item footer button:hover {
+    background-color: var(--color-secundary-dark);
   }
 }
