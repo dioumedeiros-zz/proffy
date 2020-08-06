@@ -68,6 +68,10 @@
     margin-top: 0;
   }
 
+  #search-teachers .input-block input {
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+
   #page-teacher-list main {
     padding: 3.2rem 0;
     max-width: 740px;
